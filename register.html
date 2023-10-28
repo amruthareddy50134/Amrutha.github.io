@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Sign up</legend>
+        <form action="thank.html">
+        <label for="name">Name</label><br>
+        <input type="text" required id="name" name="name" placeholder="Enter Name" pattern="[a-zA-z]{3,20}"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" required id="email" name="email" placeholder="Enter your Email"><br><br>
+        <label for="pswd">Password</label><br>
+        <input type="password" required id="pswd" name="pswd" placeholder="Enter your password"><br><br>
+        <label for="cpswd">Confirm Password</label><br>
+        <input type="password" required id="cpswd" name="cpswd" placeholder="Enter your confirm password"><br><br>
+        <label for="num">Phone Number</label><br>
+        <input type="text" required id="num" name="num" placeholder="Enter phone number" pattern="[6-9]{1}[0-9]{9}"><br><br>
+        <label for="clg">College Name</label><br>
+        <input type="text" id="clg" name="clg" palceholder="Enter college name"><br><br>
+        <label for="">Select Course</label><br>
+        <select name="course">
+            <option value="Java">Java Full stack Web Development</option>
+            <option value="Data">Data Structures and Algorithms</option>
+        </select><br><br>
+        <label for="mode">Mode</label><br>
+        <input type="radio" id="on" value="Online" name="mode">
+        <label for="on">Online</label>
+        <input type="radio" id="off" value="Offline" name="mode">
+        <label for="off">Offline</label><br><br>
+        <input type="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
